@@ -7,3 +7,17 @@
     font-size: 20px;
     font-weight: 600;
 }
+
+.fieldBox li{
+    padding: 6px
+}
+
+.fieldBox a {
+    color: #252436;
+    transition: background 0.15s;
+}
+
+.fieldBox a:hover{
+    color: #ca380b;
+    transition: background 0.25s;
+}

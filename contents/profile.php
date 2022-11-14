@@ -54,7 +54,7 @@
             echo '</div>';
         }else{
 
-            //Showing profile left div
+            //Showing profile left div according to user privilage
             echo '<div class="profileLeft">';
             if (isset($_REQUEST['requestProfile']) && $_REQUEST['requestProfile']=="usrEdit") {
                 require_once 'contents/profile-contents/profile-usr-editform.php';
@@ -66,6 +66,8 @@
                 require_once 'contents/profile-contents/profile-student/std-mainView.php';
             }elseif($user[0]["usrPrivilage"] == "None"){
                 require_once 'contents/profile-contents/profile-unauthorized.php';
+            }elseif($user[0]["usrPrivilage"] == "Admin"){
+                require_once 'contents/profile-contents/profile-admin/admin-leftView.php';
             }
 
 
