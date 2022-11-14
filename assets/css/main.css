@@ -152,3 +152,8 @@ div#contentSocial {
     color: #f15c3c;
     transition: color .25s;
 }
+
+.footCollum .colRight li {
+    color: rgb(141 140 140);
+    font-size: 12px;
+}
