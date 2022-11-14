@@ -58,13 +58,17 @@
                             if(isset($_REQUEST['request']) && $_REQUEST['request']=="signup"){
                                 require_once 'contents/signupform.php'; 
                             }
-                            if(isset($_REQUEST['request']) && $_REQUEST['request']=="usrLogin"){
+                            elseif(isset($_REQUEST['request']) && $_REQUEST['request']=="usrLogin"){
                                 require_once 'contents/loginform.php'; 
+                            }else{
+                                require_once 'contents/loginform.php';
                             }
                         }
                         elseif (isset($_SESSION["usrEmail"]) && isset($_SESSION["usrEmail"])){
                        
                             if (isset($_REQUEST['request']) && $_REQUEST['request']=="profile") {
+                                require_once 'contents/profile.php';
+                            }else{
                                 require_once 'contents/profile.php';
                             }
                         }

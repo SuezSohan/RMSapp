@@ -18,7 +18,6 @@
         <li><a href="#">About Us</a></li> -->
         <?php
             if(isset($_SESSION["usrEmail"]) && isset($_SESSION["usrId"])){
-                echo '<li><a href="index.php?request=profile">Profile</a></li>';
 
                 if($user[0]["usrPrivilage"] == "Admin"){
                     echo '<li><a href="index.php?request=profile&profileMain&requestProfileMain=usrPrivilage">Set User</a></li>';
