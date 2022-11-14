@@ -64,7 +64,11 @@
                 require_once 'contents/profile-contents/profile-usrDp-form.php';
             }elseif ($user[0]["usrPrivilage"] == "Student"){
                 require_once 'contents/profile-contents/profile-student/std-mainView.php';
+            }elseif($user[0]["usrPrivilage"] == "None"){
+                require_once 'contents/profile-contents/profile-unauthorized.php';
             }
+
+
             echo '</div>';
 
             //Showing profile right div
