@@ -68,6 +68,8 @@
                 require_once 'contents/profile-contents/profile-unauthorized.php';
             }elseif($user[0]["usrPrivilage"] == "Admin"){
                 require_once 'contents/profile-contents/profile-admin/admin-leftView.php';
+            }elseif($user[0]["usrPrivilage"] == "Teacher"){
+                require_once 'contents/profile-contents/profile-teacher/teacher-leftView.php';
             }
 
 
