@@ -48,7 +48,9 @@
     </div>
 </div>
 
-<div class="rightBox">
+<!-- This feature could be added in future -->
+
+<!-- <div class="rightBox">
     <div class="boxheader">
         <h1>Options</h1>
     </div>
@@ -56,7 +58,7 @@
         <ul>
             <?php
 
-                if($user[0]["usrPrivilage"] == "Admin"){
+                /* if($user[0]["usrPrivilage"] == "Admin"){
                     echo '<li><i class="fa fa-chevron-circle-right"></i><a href="index.php?request=profile&profileMain&requestProfileMain=usrPrivilage">Set user type</a></li>';
                     echo '<li><i class="fa fa-chevron-circle-right"></i><a href="index.php?request=profile&profileMain&requestProfileMain=stdInfoView">View students Information</a></li>';
                     echo '<li><i class="fa fa-chevron-circle-right"></i><a href="index.php?request=profile&profileMain&requestProfileMain=setExam">Set exam date</a></li>';
@@ -73,8 +75,8 @@
                 if($user[0]["usrPrivilage"] == "Teacher"){
                     
                 }
-            
+             */
             ?>
         </ul>
     </div>
-</div>
+</div> -->
