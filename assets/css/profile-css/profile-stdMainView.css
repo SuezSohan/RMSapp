@@ -1,0 +1,28 @@
+.stdMainView {
+    margin-right: 15px;
+}
+
+.stdAction {
+    margin-bottom: 33px;
+}
+
+.stdMainView legend {
+    margin-left: 19px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.stdAction li {
+    border: 1px solid;
+    margin: 20px 0px;
+    padding: 12px;
+    color: white;
+    background: #0e4f00de;
+    border-radius: 3px;
+    transition: background 0.15s;
+}
+
+.stdAction li:hover{
+    background: #ca380b;
+    transition: background 0.25s;
+}

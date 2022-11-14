@@ -1,0 +1,52 @@
+.resultTableContainer {
+    width: 825px;
+    margin: auto;
+    margin-bottom: 35px;
+}
+
+.resultTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.resultTable th, .resultTable td {
+    height: 35px;
+    text-align: center;
+    border: 2px solid #8b8b8b;
+    padding: 6px;
+}
+
+form.monthSearch input {
+    width: 59%;
+    height: 38px;
+    padding-left: 10px;
+    outline: none;
+    border: 1px solid #979696;
+}
+
+button{
+    width: 165px;
+    height: 38px;
+    cursor: pointer;
+    font-weight: bold;
+    border: none;
+    color: white;
+    background: #252436;
+    border-radius: 3px;
+    transition: background 0.25s;
+}
+
+button:hover{
+    background: #c31200;
+    transition: background 0.25s;
+}
+
+.notFound {
+    text-align: center;
+    padding: 65px 0px 92px;
+}
+
+.notFound h2 {
+    font-size: 52px;
+    color: #a9a9a97d;
+}

@@ -1,0 +1,128 @@
+.rightBox {
+    margin-bottom: 35px;
+}
+
+.boxheader {
+    height: 35px;
+    background: #252436;
+}
+
+.boxheader h1 {
+    float: left;
+    color: white;
+    background: #e72c03;
+    line-height: 35px;
+    font-size: 17px;
+    padding: 0px 13px 0px;
+}
+
+.boxheader a {
+    color: white;
+    line-height: 35px;
+    font-weight: bold;
+    font-size: 14px;
+    padding-right: 12px;
+    transition: color .25s;
+}
+
+.boxheader a:hover{
+    color: #f95d3b;
+    transition: color .25s;
+}
+
+.boxContent {
+    margin-top: 5px;
+}
+
+.boxContent ul {
+    margin-left: 1px;
+}
+
+.boxContent ul li {
+    border-bottom: 1px solid #25243642;
+    display: flex;
+    padding: 11px 0px;
+    color: #15123d;
+}
+
+.rightPic img {
+    display: block;
+    width: 175px;
+    height: 175px;
+    margin-left: auto;
+    border: 2px solid #252436;
+    box-shadow: 0px 0px 1px 1px #252436;
+    border-radius: 50%;
+    margin-right: auto;
+}
+
+.picBox{
+    margin: 0px 0px 30px;
+    border: 2px solid #25243629;
+}
+
+.rightPic {
+    padding: 13px 0px 20px;
+}
+
+div#picUrl {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+div#picButton button {
+    height: 30px;
+    width: 77px;
+    color: white;
+    border: none;
+    margin: 0px 11px 0px;
+    background: #d7482a;
+}
+
+
+span#pwdChange a{
+    color:#db2c06;
+    transition: color .25s;
+}
+
+span#pwdChange a:hover{
+    color: #15123d;
+    transition: color .25s;
+    
+}
+
+div#optionContent ul li {
+    border-bottom: 1px dashed #c9c9ce;
+    word-break: break-word;
+}
+
+div#optionContent a {
+    margin-left: 10px;
+    color: #252436;
+    transition: color .25s;
+
+}
+
+div#optionContent a:hover {
+    margin-left: 10px;
+    color: #dd2a03;
+    transition: color .25s;
+}
+
+div#picUrl a {
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    background: #dd2a03;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 3px;
+    width: 78px;
+    transition: background .25s;
+}
+
+div#picUrl a:hover {
+    background: #252436;
+    transition: background .25s;
+}

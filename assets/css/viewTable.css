@@ -1,0 +1,40 @@
+.viewTableContainer {
+    width: 900px;
+    margin: auto;
+    padding: 0px 0px 36px;
+    margin-bottom: 30px;
+}
+
+.infoViewTable {
+    width: 810px;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+.infoViewTable td {
+    font-size: 15px;
+    height: 50px;
+    padding: 10px;
+    border: 1px solid #bfbfbf;
+}
+
+.infoViewTable tr:nth-child(even){
+    background: #e3e3e39e;
+}
+
+.infoViewTable tr:nth-child(odd) {
+    background: #f7f7f7;
+}
+
+.viewTableContainer a {
+    background: #252436;
+    color: white;
+    padding: 9px 28px 9px;
+    font-weight: bold;
+    transition: background 0.15s;
+}
+
+.viewTableContainer a:hover {
+    background: #db0000;
+    transition: background 0.15s;
+}

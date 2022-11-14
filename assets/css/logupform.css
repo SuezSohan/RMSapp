@@ -1,0 +1,50 @@
+.inputLogup {
+    width: 440px;
+    margin: auto;
+    box-shadow: 0 0 1px 1px #b3b3b3;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.logupBox {
+    width: 90%;
+    margin: auto;
+    padding: 0 30px 30px;
+}
+
+.logupBox input {
+    width: 100%;
+    height: 40px;
+    font-size: 14px;
+    color: black;
+    background-color: transparent;
+    display: block;
+    outline: none;
+    border: 0;
+    border-bottom: 1px solid #646464d4;
+    margin-top: 12px;
+    box-shadow: transparent 0 1px 0;
+    transition: 0.5s border-color, 0.5s box-shadow;
+}
+
+.logupBox input:focus {
+    border-bottom: 1px solid #252436;
+    box-shadow: #252436 0 1px 0;
+}
+
+.logupBox button {
+    width: 100%;
+    height: 40px;
+    margin: 30px 0px 0px;
+    border: none;
+    font-size: 15px;
+    color: white;
+    background: #252436;
+    transition: background .25s;
+}
+
+.logupBox button:hover {
+    cursor: pointer;
+    background: #ca380b;
+    transition: background .25s;
+}

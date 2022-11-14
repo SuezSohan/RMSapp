@@ -1,0 +1,15 @@
+.userProfile {
+    display: flex;
+}
+
+.profileMain {
+    width: 100%;
+}
+
+.profileLeft{
+    width: 70%;
+}
+
+.profileRight {
+    width: 30%;
+}

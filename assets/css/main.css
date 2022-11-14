@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+html, body {
+    font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  }
+  
+a {
+    text-decoration: none;
+  }
+
+ul {
+    list-style: none;
+}
+  
+.wrapper {
+    background: #fdfdfd;
+}
+
+.container1 {
+    margin: auto;
+    width: 1070px;
+    background: #ffffff;
+    box-shadow: 0px 0px 3px #455e3e
+}
+
+.topBar {
+    width: 100%;
+    height: 32px;
+    background-color: #fff;
+    overflow: hidden;
+    margin: 0;
+    border-bottom: 1px solid rgb(0 0 0 / 11%);
+}
+
+.contentClass {
+    padding-left: 37px;
+}
+
+div#contentSocial {
+    float: right;
+    margin-right: 37px;
+}
+
+.contentClass ul li {
+    float: left;
+    line-height: 32px;
+    display: block;
+    padding: 0 8px;
+}
+
+.contentClass ul li a {
+    font-weight: 600;
+    font-size: 13px;
+    color: black;
+    display: block;
+    transition: color .25s;
+}
+
+.contentClass ul li a:hover {
+    color: #f15c3c;
+    transition: color .25s;
+}
+
+.container2 {
+    padding: 20px 45px 20px;
+}
+
+.headSection {
+    width: 100%;
+}
+
+.logo {
+    width: 140px;
+    height: 115px;
+    transition: filter .15s;
+}
+
+.logo:hover {
+    filter: brightness(88%);
+    transition: filter .15s;
+}
+
+.titleText {
+    padding: 30px 15px
+}
+
+.titleText h2 {
+    margin-bottom: 5px;
+    border-bottom: 2px solid;
+}
+
+.menu {
+    height: 38px;
+    background: #252436;
+    margin-top: 8px;
+}
+
+.menu ul li{
+    color: white;
+    line-height: 38px;
+    float: left;
+    display: block;
+}
+
+.menu ul li a {
+    color: white;
+    display: block;
+    background: #252436;
+    border-right: 1px solid rgba(255, 255, 255, 0.226);
+    padding: 0 13px;
+    transition: background .25s;
+}
+
+.menu ul li a:hover {
+    background: rgb(224, 14, 14);
+    transition: background .25s;
+}
+
+.footSection {
+    width: 100%;
+    background: #252436;
+    height: 120px;
+}
+
+.bodySection {
+    width: 99.6%;
+    margin: auto;
+    margin-top: 25px;
+  /* height: 800px; */
+}
+
+
+
+.footCollum {
+    height: 100%;
+    padding: 19px;
+    display: flex;
+    flex-direction: row;
+}
+
+.footCollum a {
+    color: rgb(141 140 140);
+    font-size: 12px;
+    transition: color .25s;
+}
+
+.footCollum a:hover {
+    color: #f15c3c;
+    transition: color .25s;
+}

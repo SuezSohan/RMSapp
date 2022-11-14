@@ -1,0 +1,18 @@
+.usrEditForm {
+    width: 440px;
+    margin: auto;
+    box-shadow: 0 0 1px 1px #b3b3b3;
+    margin-bottom: 50px;
+}
+
+.usrEditForm input {
+    border: 1px solid #8d8d8d;
+    border-radius: 4px;
+    margin-top: 4px;
+    padding-left: 14px;
+    margin: 10px 0px;
+}
+
+.usrEditForm label {
+    color: #505050;
+}

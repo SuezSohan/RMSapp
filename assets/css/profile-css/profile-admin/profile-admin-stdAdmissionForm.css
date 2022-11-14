@@ -1,0 +1,17 @@
+.infoFormContainer table {
+    border-collapse: collapse;
+    width: 90%;
+}
+
+.infoFormContainer table th, td {
+    border: 1.5px solid #898989;
+    width: 120px;
+    color: #252436;
+    padding: 8px;
+    text-align: left;
+    font-size: 13px;
+}
+
+.infoFormContainer th {
+    background: #f5f5f5;
+}
